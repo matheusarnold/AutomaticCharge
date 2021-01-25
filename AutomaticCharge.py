@@ -9,7 +9,7 @@ plugStat = battery.power_plugged
 
 isLow = False
 toaster = ToastNotifier()
-url = 'https://maker.ifttt.com/trigger/battery_low/with/key/jSSEFX0LJxQmKnLTPKz80yifrypefKi0IaiuOkJn8eP'
+url = 'PUT YOUR KEY HERE'
 
 while(True):
     if(percent <= 20 and plugStat == False and isLow == False):
